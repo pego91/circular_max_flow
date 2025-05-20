@@ -2,7 +2,7 @@ List of the folders and files contained in the repository.
 
 "requirements.txt" -> list of all the packages needed to run the code
 
-"Simulation_Study" -> contains the code to run two simulation studies employing circular max-flow. The studies can be ran via the two notebooks "Simulation_Study_1" and "Simulation_Study_2"    
+"Simulation_Study" -> contains the code to run two simulation studies employing circular max-flow. The studies can be ran via the two notebooks "Simulation_Study_1" and "Simulation_Study_2". "Simulation_Study_1" also features a brief introductiory section.    
 
 "Flow_Results" -> contains all the max-flow results we used in the paper. The notebooks "Plot_Max_Flow_Results" is used to plot max-flow vs MSD results.
 
