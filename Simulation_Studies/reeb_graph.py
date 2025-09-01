@@ -1,6 +1,5 @@
 import numpy as np
 import matplotlib.pyplot as plt
-import galois
 import networkx as nx
 import multiprocessing as mp
 
@@ -259,7 +258,7 @@ class Reeb_Graph(object):
                     self.distances_to_balls = np.min(self.distances_to_balls,axis=0)
 
                     self.atoms_kinds[r_aux>0] = r_aux[r_aux>0]-1+i                 
-                
+        
         thresh_radii = balls_radii[self.atoms_kinds]
         
         thresh_aux = np.vstack([self.distances_to_balls, thresh_radii])
